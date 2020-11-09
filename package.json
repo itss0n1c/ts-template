@@ -15,7 +15,5 @@
     "ts-node-dev": "^1.0.0",
     "typescript": "^4.0.5"
   },
-  "dependencies": {
-    "bonjour": "^3.5.0"
-  }
+  "dependencies": {}
 }

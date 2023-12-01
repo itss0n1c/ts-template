@@ -11,7 +11,7 @@
 		"target": "ES2022",
 		"downlevelIteration": true,
 		"esModuleInterop": true,
-		"types": ["bun-types"]
+		"strict": true
 	},
 	"exclude": ["dist/"]
 }

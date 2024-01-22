@@ -6,17 +6,12 @@
 	"license": "MIT",
 	"type": "module",
 	"scripts": {
-		"build": "tsc -p .",
-		"dev": "nodemon --exec vite-node src/index.ts"
+		"build": "bun build --minify lib/index.ts --outdir dist",
+		"lint": "biome check lib",
+		"test": "bun test"
 	},
 	"devDependencies": {
-		"@types/node": "^20.10.1",
-		"@typescript-eslint/eslint-plugin": "^6.13.1",
-		"@typescript-eslint/parser": "^6.13.1",
-		"eslint": "^8.54.0",
-		"nodemon": "^3.0.1",
-		"typescript": "^5.3.2",
-		"vite-node": "0.34.6"
-	},
-	"packageManager": "yarn@4.0.2"
+		"@biomejs/biome": "^1.5.2",
+		"@types/bun": "latest"
+	}
 }

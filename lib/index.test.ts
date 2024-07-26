@@ -1,6 +1,6 @@
-import { expect, test } from "bun:test";
-import { hello } from "./index.js";
+import { expect, test } from 'bun:test';
+import { hello } from './index.js';
 
-test("test hello", () => {
-  expect(hello()).toEqual("hello");
+test('test hello', () => {
+	expect(hello()).toEqual('hello');
 });

@@ -1,17 +1,18 @@
 {
-  "compilerOptions": {
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["ESNext"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "outDir": "dist/",
-    "resolveJsonModule": true,
-    "rootDir": "lib/",
-    "target": "ESNext",
-    "downlevelIteration": true,
-    "esModuleInterop": true,
-    "strict": true
-  },
-  "exclude": ["dist/"]
+	"compilerOptions": {
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": ["ESNext"],
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"outDir": "dist/",
+		"rootDir": "lib/",
+		"resolveJsonModule": true,
+		"target": "ESNext",
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": true
+	},
+	"exclude": ["dist/", "node_modules", "**/node_modules/*"]
 }

@@ -1,5 +1,5 @@
-/node_modules
-/.yarn/cache
-/.yarn/install-state.gz
-/dist
+node_modules/
+dist/
+
 .env
+.DS_Store
